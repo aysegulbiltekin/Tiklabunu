@@ -1,0 +1,110 @@
+
+body{
+     margin: 20px;
+     padding: 0px;
+	 border:0;
+     background-color:#4b4b4b;
+     font-family: Arial, Helvetica, sans-serif;
+}
+*{
+     box-sizing: border-box;
+}
+.sayfa{
+     width: 100% px;
+     margin: 0 auto;
+	 /* background-image: url("a.png");*/
+     background-color: white;
+}
+.baslik{
+	 background-image: url("Adsız1.png") ; 
+	 background-repeat: none;
+     background-color: #fff200;
+     padding: 20px;
+}
+/* Menu Kutusu */
+.menu {
+     overflow: hidden;
+     background-color: #333;
+}
+.menu ul{
+     margin: 0px;
+     padding: 0px;
+}
+.menu li{    
+    display:inline-block;
+
+	list-style-type: none;
+     float: left;
+}
+ul.menu li a {
+	list-style:none;
+	margin: 0;
+	padding: 0;
+	float: left;
+    border-right: 1px solid rgba(0,0,0,.1);
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color : #fffa65; 
+}
+
+ul li ul {
+    background-color:#3d3d3d;
+    display:none;
+    position:absolute;
+    width:100px
+}
+
+ul li:hover ul{
+    display:block;
+}
+li ul li {
+    display:block; 
+}
+
+/* Menü Linkleri */
+.menu a  {            
+     display: block;
+     color: #f2f2f2;
+     text-align: center;
+     padding: 14px 16px;
+     text-decoration: none;
+}
+	
+/* Mouse üzerinde iken link değişimi */
+.menu a:hover {
+     background-color: #ddd;
+     color: black;
+}
+.sutun{
+     float: left;
+     padding: 10px;
+}
+.sag{
+     width: 25%;
+}
+.sol{
+     width: 25%;
+}
+.orta{
+     width: 50%;
+}
+.icerik:after {
+     content: "";
+     display: table;
+     clear: both;
+}
+.alt {
+     background-color: black;
+     color: white;
+     padding: 10px;
+     text-align: center;
+}
